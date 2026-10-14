@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Удаление аккаунта — KidLoop</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f8fb;
+    color: #17242c;
+    line-height: 1.65;
+    padding: 20px;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    padding: 40px 32px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.06);
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #FF6B00;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  p { margin-bottom: 12px; }
+  ul { margin-left: 24px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; }
+  a { color: #FF6B00; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .step {
+    background: #f5f8fb;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+  }
+  .back {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12px 20px;
+    background: #FF6B00;
+    color: white;
+    border-radius: 12px;
+    font-weight: 700;
+  }
+  .back:hover { text-decoration: none; opacity: 0.9; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>Удаление аккаунта KidLoop</h1>
+
+  <p>Вы можете удалить свой аккаунт и все связанные данные прямо из приложения KidLoop или через эту страницу.</p>
+
+  <h2>Способ 1: Из приложения (быстро)</h2>
+  <div class="step">
+    <ol>
+      <li>Откройте приложение KidLoop</li>
+      <li>Перейдите в раздел <b>Профиль</b></li>
+      <li>Нажмите <b>Удалить аккаунт</b></li>
+      <li>Подтвердите действие</li>
+    </ol>
+  </div>
+
+  <h2>Способ 2: Через email</h2>
+  <div class="step">
+    <p>Отправьте письмо на <a href="mailto:solovevrus1993@gmail.com">solovevrus1993@gmail.com</a> с темой «Удаление аккаунта» и укажите:</p>
+    <ul>
+      <li>Ваше имя в приложении</li>
+      <li>Ваш user_id (если знаете)</li>
+      <li>Email, привязанный к аккаунту</li>
+    </ul>
+    <p>Запрос будет обработан в течение 30 дней.</p>
+  </div>
+
+  <h2>Что будет удалено</h2>
+  <ul>
+    <li>Профиль и личные данные (имя, город, возраст, фото)</li>
+    <li>Все вещи и наборы вещей</li>
+    <li>История обменов и сообщений в чатах</li>
+    <li>Друзья и заявки в друзья</li>
+    <li>Подписки на категории</li>
+    <li>Push-токен устройства</li>
+  </ul>
+
+  <h2>Что НЕ будет удалено</h2>
+  <ul>
+    <li>Анонимные логи ошибок (без привязки к вам)</li>
+    <li>Данные, хранимые по требованию закона</li>
+  </ul>
+
+  <h2>Сроки</h2>
+  <p>Удаление выполняется в течение 30 дней с момента запроса. До этого момента вы можете отменить удаление, написав на email.</p>
+
+  <a href="index.html" class="back">← Назад к политике конфиденциальности</a>
+
+</div>
+</body>
+</html>
